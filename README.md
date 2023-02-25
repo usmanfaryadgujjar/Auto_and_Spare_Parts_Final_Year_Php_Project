@@ -11,6 +11,9 @@
 ![a7](https://user-images.githubusercontent.com/97385283/221353992-1bb74532-7e5c-46d8-ab7b-4a9dac67c77e.png)
 ![a8](https://user-images.githubusercontent.com/97385283/221353994-d0b9eaf5-5737-4e17-8d03-228c5a65e36b.png)
 
+# My Youtube proper video demo upload  
+https://www.youtube.com/@easycodeproject
+
 # Admin side UserName Or Email 
 Username: usman@usman.com   
 pas: a
