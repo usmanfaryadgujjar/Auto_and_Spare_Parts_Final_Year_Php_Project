@@ -170,6 +170,14 @@
                     </li>
                     --->
 
+                      <li>
+                        <a class="" href="logout.php" aria-expanded="false">
+                            <span class="nav-text">
+                                Logout
+                            </span>
+                        </a>
+                    </li>
+
 
 
 
