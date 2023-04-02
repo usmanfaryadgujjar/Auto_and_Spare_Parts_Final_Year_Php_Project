@@ -185,12 +185,12 @@
                                             <input type="radio"  id="customer" name="user_type" value="customer" required>
                                             Customer
                                           </label>
-                                       <!--
+                                 
                                           <label>
                                             <input type="radio"  id="seller" name="user_type" value="seller" required>
                                             Seller
                                           </label>
--->
+						
                                         </div>
                                  </div>
                             </div>
