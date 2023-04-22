@@ -58,7 +58,44 @@ $con = mysqli_connect($servername, $username, $password,$db);
                     
                     }
     
+                    $TotalOrder=0;
+
+                    $data8 = "SELECT * FROM orders ";
+					$view8 = mysqli_query($con,$data8);
+					while($_view8 = mysqli_fetch_assoc($view8))
+					{		
+                        $TotalOrder++;
+                    
+                    }
     
+                    $TotalCategories=0;
+
+                    $data9 = "SELECT * FROM categories ";
+					$view9 = mysqli_query($con,$data9);
+					while($_view9 = mysqli_fetch_assoc($view9))
+					{		
+                        $TotalCategories++;
+                    
+                    }
+                    $Totalbrands=0;
+
+                    $data10 = "SELECT * FROM brands ";
+					$view10 = mysqli_query($con,$data10);
+					while($_view10 = mysqli_fetch_assoc($view10))
+					{		
+                        $Totalbrands++;
+                    
+                    }
+                    $Totalproducts=0;
+
+                    $data11 = "SELECT * FROM products ";
+					$view11 = mysqli_query($con,$data11);
+					while($_view11 = mysqli_fetch_assoc($view11))
+					{		
+                        $Totalproducts++;
+                    
+                    }
+
     
                         
 					?>
@@ -71,8 +108,8 @@ $con = mysqli_connect($servername, $username, $password,$db);
                         <div class="card">
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
-                                    <div class="stat-text">working ----- Orders </div>
-                                    <div class="stat-digit">8500</div>
+                                    <div class="stat-text">Total Orders </div>
+                                    <div class="stat-digit"><?php echo $TotalOrder; ?></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-success w-85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -84,8 +121,8 @@ $con = mysqli_connect($servername, $username, $password,$db);
                         <div class="card">
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
-                                    <div class="stat-text">Categories</div>
-                                    <div class="stat-digit">7800</div>
+                                    <div class="stat-text">Total Categories Register</div>
+                                    <div class="stat-digit"><?php echo $TotalCategories ?></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-primary w-75" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
@@ -97,8 +134,8 @@ $con = mysqli_connect($servername, $username, $password,$db);
                         <div class="card">
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
-                                    <div class="stat-text">Products</div>
-                                    <div class="stat-digit">500</div>
+                                    <div class="stat-text">Total Brands Register</div>
+                                    <div class="stat-digit"><?php echo $Totalbrands; ?></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-warning w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -110,8 +147,8 @@ $con = mysqli_connect($servername, $username, $password,$db);
                         <div class="card">
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
-                                    <div class="stat-text">Products</div>
-                                    <div class="stat-digit">500</div>
+                                    <div class="stat-text">Total Products Register</div>
+                                    <div class="stat-digit"><?php echo $Totalproducts; ?></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-warning w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
