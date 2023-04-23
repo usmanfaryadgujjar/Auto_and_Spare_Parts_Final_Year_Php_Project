@@ -119,18 +119,24 @@ if(mysqli_num_rows($run_query22) > 0){
             $su=($pro_price * 5)/100;
             $per=$su+$pro_price;
 
+
 	//echo $pro_image_2=$pro_image;
                         ?>
 
                                                 <tr>
-                                                   <td class="product_remove"><a href="#">X</a></td>
+                                                   <td class="product_remove"><a href="wishlist_del.php?value=<?php echo $pro_id; ?>">X</a></td>
+                                                   <!-- <input type="hidden" name="product_id" id="product-id" value=""> -->
                                                     <td class="cart_img" ><a href="#"><img src="login/Image_Product/<?php echo $pro_image ; ?>" alt=""></img></a></td>
                                                     <td class="product_name"><a href="#"><?php echo $pro_title; ?></a></td>
 
                                                     <td class="product-price"><span class="old_price"> <?php //echo $per; ?></span>
                                                 <span class="current_price">Rs <?php echo $pro_price; ?></span></td>
                                                     <td class="product_quantity">In Stock</td>
-                                                    <td class="product_total"><button pid="<?php echo $pro_id; ?>"  id="product" class="btn btn-primary">Add To Cart </button></td>
+                                                    <td class="product_total">
+                                                        <a href="wishlist_add.php?values=<?php echo $pro_id; ?>?value_user=<?php echo $Vr1; ?>">
+                                                        Add To Cart 
+                                                        </a>
+                                                    </td>
 
                                                 </tr>
 
