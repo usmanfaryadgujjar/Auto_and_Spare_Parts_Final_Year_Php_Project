@@ -32,3 +32,22 @@ pas: 123456789
 
 # Auto_and_Spare_Parts_Final_Year_Php_Project
 Our project is ‘Auto and Spare Parts’. We are introducing a website or an application through  which a user can purchase and sell the auto and spare parts of all kinds of vehicles. A user can  create his account as a ‘seller’ or ‘buyer’ to sell or buy vehicle parts. For using this application,  first of all user should register him in the application. A user can not add anything to the cart  without logging into his account. A user can login through a unique I.D and password. A user  can add products to the cart. Indeed, through the help of this website, a user can remove the products from the cart. In addition to this, a user can check promotions and discounts on  products. Anyone can get the parts at home to save the time as well as money. To pay for the  parts, a user can use the PayPal/credit card option or can use the option of Cash on delivery. On  the ‘seller’ side, a ‘seller’ of a car parts can post his product on our website/application to sell his vehicle’s parts. A seller can also create his account and register himself. A seller can post the  product; he can also give discounts on the products. Seller can Update or delete the products.  This Application is free of cost on Play Store. We are providing an online platform for  purchasing or selling the Cars parts on one click.
+
+# Do you want to create or redesign an amazing website for your business and rank it on the first page of Google?
+# We are providing attractive offers, discounts, and benefits on some of our most demanding services like
+• New Website Development and Redesign
+• Mobile App Development
+• Custom Software Development
+• Branding & Graphics
+• App Development
+• CMS Development
+• Blockchain Development
+• Search Engine Optimization
+
+We recognize the significance of a cost-effective strategy. We are excited to provide significant discounts and advantages on our most popular services.
+Let's set up a time to speak about your individual needs and goals, as well as how NetSear can personalize our services to improve your online visibility.
+
+# ► ➜ Business_Email: info@netsear.com
+# ► ➜ Website:  https://netsear.com/
+# ► ➜ Linkedin: netsear
+
