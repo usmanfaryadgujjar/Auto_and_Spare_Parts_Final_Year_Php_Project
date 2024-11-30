@@ -118,7 +118,7 @@ include'sidebar.php';
                 </div>
 
                 <div class="table-responsive">
-                        <table class="table table-striped table-sm">
+                        <table class="table table-striped table-sm" style="color:black;" >
                           <thead>
                             <tr>
                               <th></th>
