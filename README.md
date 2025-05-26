@@ -50,4 +50,5 @@ Let's set up a time to speak about your individual needs and goals, as well as h
 # ► ➜ Business_Email: info@netsear.com
 # ► ➜ Website:  https://netsear.com/
 # ► ➜ Linkedin: netsear
+# ► ➜ Youtube: netsear - www.youtube.com/@NetSear
 
